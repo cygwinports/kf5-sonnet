@@ -1,7 +1,7 @@
 inherit kf5
 
 NAME="kf5-sonnet"
-VERSION=5.12.0
+VERSION=5.27.0
 RELEASE=1
 CATEGORY="Libs"
 SUMMARY="KDE 5 spell checking library"
@@ -14,6 +14,8 @@ PKG_NAMES="libKF5Sonnet5 libKF5Sonnet-devel"
 libKF5Sonnet5_CONTENTS="
 	usr/bin/cygKF5SonnetCore-5.dll
 	usr/bin/cygKF5SonnetUi-5.dll
+	usr/bin/gentrigrams.exe
+	usr/bin/parsetrigrams.exe
 	${QT5_PLUGINSDIR#/}/kf5/sonnet/
 	usr/share/doc/
 	usr/share/kf5/sonnet/
