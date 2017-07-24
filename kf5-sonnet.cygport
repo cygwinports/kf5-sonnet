@@ -2,7 +2,7 @@ inherit kf5
 
 NAME="kf5-sonnet"
 VERSION=5.35.0
-RELEASE=1
+RELEASE=2
 CATEGORY="Libs"
 SUMMARY="KDE 5 spell checking library"
 DESCRIPTION="Sonnet is a plugin-based spell checking library for Qt-based
