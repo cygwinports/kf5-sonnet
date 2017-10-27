@@ -1,8 +1,8 @@
 inherit kf5
 
 NAME="kf5-sonnet"
-VERSION=5.35.0
-RELEASE=2
+VERSION=5.39.0
+RELEASE=1
 CATEGORY="Libs"
 SUMMARY="KDE 5 spell checking library"
 DESCRIPTION="Sonnet is a plugin-based spell checking library for Qt-based
@@ -12,6 +12,7 @@ CYGCMAKE_ARGS="-DWITH_HSPELL=OFF"
 
 PKG_NAMES="libKF5Sonnet5 libKF5Sonnet-devel"
 libKF5Sonnet5_CONTENTS="
+	etc/xdg/sonnet.categories
 	usr/bin/cygKF5SonnetCore-5.dll
 	usr/bin/cygKF5SonnetUi-5.dll
 	usr/bin/gentrigrams.exe
